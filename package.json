@@ -24,10 +24,11 @@
   "main": "src/server.js",
   "scripts": {
     "test": "node src/tests/index.js",
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js"
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
