@@ -1,0 +1,33 @@
+{
+  "name": "acquisitions",
+  "version": "1.0.0",
+  "description": "A learning project for DevOps course",
+  "keywords": [
+    "Docker",
+    "Kubernetes",
+    "Github",
+    "Actions",
+    "Pipelines",
+    "CI/CD"
+  ],
+  "homepage": "https://github.com/danielkembeu/acquisitions#readme",
+  "bugs": {
+    "url": "https://github.com/danielkembeu/acquisitions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielkembeu/acquisitions.git"
+  },
+  "license": "ISC",
+  "author": "danielkembeu",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node src/tests/index.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
